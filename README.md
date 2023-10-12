@@ -14,8 +14,16 @@
 
 5. Levantar la base de datos
 
-6. Levantar la base de datos
-
 ```
 docker-compose up -d
+```
+
+6. Ejecutar Seed para llenar la base de datos
+
+http://localhost:3001/api/seed
+
+7. Levantar
+
+```
+yarn run start:dev
 ```
